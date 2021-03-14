@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87ed37f11f.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Hey, I'm Nick</title>
+    <script>
+        $(function () {
+            $('#timeline').click(function () {
+                $('#tl').slideToggle(800, 'swing');
+
+            }
+            );
+        });
+        function flip(element) {
+            if (document.getElementById(element).style.transform == 'rotate(180deg)') {
+                document.getElementById(element).style.transform = 'rotate(-360deg)'
+            }
+            else {
+                document.getElementById(element).style.transform = 'rotate(180deg)'
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Nick Heyland</h1>
+    <div class="center">
+        <div class="line"></div>
+    </div>
+
+    <h2>How I got here</h2>
+    <h2><i onclick="flip(this.id)" id="timeline" class="fas down fa-chevron-down"></i></h2>
+
+    <div id="tl" class="timeline expandable">
+        <div class="row">
+            <h2>Software Engineer</h2>
+
+            <h2>Commercial Pilot</h2>
+        </div>
+        <div class="container right">
+            <div class="date">2013</div>
+            <i class="icon fas fa-plane"></i>
+            <div class="content">
+                <h2>8.3.2013</h2>
+                <p>
+                    I started my journey to becoming a pilot. I washed dishes for a local diner, and using every penny I had, I paid for my flight lessons.
+                </p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="date">2015</div>
+            <i class="icon fas fa-plane"></i>
+            <div class="content">
+                <h2>8.10.2015</h2>
+                <p>
+                    I came to the realization that I was not able to pay for flight lessons at such a young age. I later attended Bridgewater State Unviersity in August of 2015.
+                </p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="date">2016</div>
+            <i class="icon fas fa-plane"></i>
+            <div class="content">
+                <h2>3.8.2016</h2>
+                <p>
+                    In the Spring of 2016 I received my first FAA certificate, my private pilots license. I later went on to receving my Instrument rating a few days after my brithday in December 2016.
+                </p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="date">2017</div>
+            <i class="icon fas fa-plane"></i>
+            <div class="content">
+                <h2>8.15.2017</h2>
+                <p>
+                    After my instrument rating I went right into training for my Commerical-ASEL pilot certificate. In August of 2017, I received my new license, and begun my long journey of becoming a CFI
+                </p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="date">2018</div>
+            <i class="icon fas fa-code"></i>
+            <div class="content">
+                <h2>1.1.2018</h2>
+                <p>
+                    In 2018, my interest in software peaked. I had seen a project called the metar map which shows pilots different weather categories on a physical geographically accurate map. I used others code to build my own. I still
+                    have the original, but I can confirm, it is not wuite presentable. Little did I know I would later go on to write my own software for my map in 2020.
+                </p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="date">2018</div>
+            <i class="icon fas fa-plane"></i>
+
+            <div class="content">
+                <h2>5.9.2018</h2>
+                <p>
+                    As 2018 flew by, I spent most days and nights studying for my Certified Flight Instructors License. In may 2018 I recevied my CFI-ASEL Licesne allowing me to teach students how to fly planes. One of my greatest
+                    acheievements ever.
+                </p>
+            </div>
+        </div>
+
+        <div class="container right">
+            <div class="date">2019</div>
+            <i class="icon fas fa-plane"></i>
+
+            <div class="content">
+                <h2>3.9.2019</h2>
+                <p>
+                    2019 was one of the biggest years of my life. I spend hours of my day teaching student pilots, but also spent time studying to receiving both my CFII and my Commercial Multi License. I also graduated with Magna Cum Laude
+                    from Bridgewater State University. I later went on to teach at the school it all began, Southern Maine Aviation.
+                </p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="date">2020</div>
+            <i class="icon fas fa-plane"></i>
+            <div class="content">
+                <h2>3.11.2020</h2>
+                <p>
+                    Just before the pandemic of 2020, I worked 7 days a week to hit my ATP requried minimums to meet my deadline to join Republic Airways as a First Officer on the E175. About one week into training, I was sent home, the
+                    company was slowing operations because the pandemic has had virtually shut down the aviation industry entierly. After one month of not flying, I couldn't just sit around anymore, and went back to teaching as soon as my
+                    flight school opened.
+            </div>
+        </div>
+        <div class="container left">
+            <div class="date">2020</div>
+            <i class="icon fas fa-code"></i>
+            <div class="content">
+                <h2>3.20.2020</h2>
+                <p>
+                    In 2020 the corona virus pandemic struck the world. I was one of many whos career was terminated because of this. In my spare time I went on to learn softawre development on my own.
+                </p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="date">2020</div>
+            <i class="icon fas fa-plane"></i>
+
+            <div class="content">
+                <h2>5.11.2020</h2>
+                <p>
+                    After years of hard work, and suddeny my world coming to a stop, I realized I could never really give up flying. I continued and even to this day spend my weekends teaching student pilots, and my weekdays working at
+                    Foreflight LLC, one of the largest aviation software companies in the world.
+            </div>
+        </div>
+        <div class="container left">
+            <div class="date">2020</div>
+            <i class="icon fas fa-code"></i>
+            <div class="content">
+                <h2>6.15.2020</h2>
+                <p>
+                    After my interest peaked in software development, I became extremely curious about what I could do next. I was discouraged by the fact that I had an aviation degree, and had never taken any classes in software
+                    development whatsoever. Foreflight, an app and software that I had used for as long as I had been flying opened a position in Portland Maine for a QA Analyst. Without having any idea what this meant, I applied. Somehow I
+                    got the job. Even to this day I am still extremely greatful I have joined this company. I haven't been there long, but it certainly changed my life so far.
+
+                </p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="date">2020</div>
+            <i class="icon fas fa-code"></i>
+            <div class="content">
+                <h2>10.31.2020</h2>
+                <p>
+                    With my new found love for technology, and after spending all day looking at other peoples 'bugs' I decided to make the commitment to start a new journey to become a software developer. I enrolled in a coding
+                    bootcamp called the coding dojo. And took off writing my own code.
+                </p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="date">2021</div>
+            <i class="icon fas fa-plane"></i>
+
+            <div class="content">
+                <h2>2.29.2021</h2>
+                <p>
+                    In 2021, although it is still early in the year, I have graduated from my coding bootcamp and officially can call myself a software engineer. I am proficient in Python and Javascript along with many other
+                    technologies, while actively working on picking up new languages as time goes on.
+
+                </p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="date">2021</div>
+            <i class="icon fas fa-code"></i>
+            <div class="content">
+                <h2>3.10.2021</h2>
+                <p>
+                    I received my Gold Seal CFI Certificate for having a 100% pass rate of my students passing their checkrides the first time.
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
